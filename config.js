@@ -1,4 +1,4 @@
-const { Sequelize } = require("sequelize");
+ const { Sequelize } = require("sequelize");
 const fs = require("fs");
 if (fs.existsSync("config.env"))
   require("dotenv").config({ path: "./config.env" });
